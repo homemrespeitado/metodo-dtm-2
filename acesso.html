@@ -93,9 +93,9 @@ section.quiet{background:var(--ink-2)}
 .method-cell p{font-size:14.5px;color:var(--dim-2);line-height:1.55;font-weight:300}
 
 /* BOOKS / BONUS */
-.books-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:40px}.books-grid .book:first-child{grid-column:1/-1;max-width:300px;margin:0 auto 10px;text-align:center}
-@media(max-width:900px){.books-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:520px){.books-grid{grid-template-columns:1fr;gap:30px}.books-grid .book:first-child{max-width:280px}}
+.books-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px}
+@media(max-width:900px){.books-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
+@media(max-width:520px){.books-grid{grid-template-columns:1fr;gap:30px}.books-grid .book:first-child{max-width:280px;margin:0 auto;text-align:center}}
 .book{display:flex;flex-direction:column}
 .book-img{aspect-ratio:2/3;background:var(--ink-3);overflow:hidden;margin-bottom:16px;box-shadow:0 14px 30px rgba(0,0,0,.4)}
 .book-img img{width:100%;height:100%;object-fit:cover}
